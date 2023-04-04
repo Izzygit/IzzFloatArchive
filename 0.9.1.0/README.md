@@ -3,7 +3,7 @@ My personal changes to the VESC Float Package
 
 Version 0.9.1.0
 
--Adds surge behavior with differntial pitch trigger
+-Adds surge behavior with differential pitch trigger
 
 Version 0.9.0.1
 
