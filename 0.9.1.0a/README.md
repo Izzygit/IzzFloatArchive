@@ -5,7 +5,7 @@ Version 0.9.1.0a
 
 -MODIFIED WITH NO ACCELERATION LIMIT/ NO TRACTION CONTROL. This is for testing high power motors like the superflux.
 
--Adds surge behavior with differntial pitch trigger
+-Adds surge behavior with differential pitch trigger
 
 Version 0.9.0.1
 
