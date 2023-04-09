@@ -1,6 +1,10 @@
 # IzzFloatArchive
 Compiled Izzfloat Packages
 
+Version 0.9.1.1
+
+-Replaces traditional pitch booster with roll based booster, Turn Boost
+
 Version 0.9.1.0
 
 -Adds surge behavior with differntial pitch trigger (https://pev.dev/t/im-excited-to-bring-you-surge-behavior-in-izzfloat-package/730)
