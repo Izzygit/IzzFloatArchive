@@ -1,7 +1,7 @@
 # IzzFLOAT
 My personal changes to the VESC Float Package
 
-Version 0.9.1.1
+Version 0.9.1.1q
 
 -Modifies booster to apply to roll angle instead of pitch angle.
 
