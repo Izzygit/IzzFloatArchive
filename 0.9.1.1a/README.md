@@ -4,7 +4,9 @@ My personal changes to the VESC Float Package
 Version 0.9.1.1
 
 -Modifies booster to apply to roll angle instead of pitch angle.
+
 -DISABLES sitcky tilt
+
 -DISABLES surge
 
 Version 0.9.1.0
