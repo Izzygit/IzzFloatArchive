@@ -3,11 +3,15 @@ My personal changes to the VESC Float Package
 
 Version 0.9.1.1
 
--Modifies booster to apply to roll angle instead of pitch angle.
+-Replaces traditional pitch booster with roll based booster, Turn Boost
+
+-DISABLES Sticky tilt
+
+-DISABLES Surge
 
 Version 0.9.1.0
 
--Adds surge behavior with differential pitch trigger (https://pev.dev/t/im-excited-to-bring-you-surge-behavior-in-izzfloat-package/730)
+-Adds surge behavior with differntial pitch trigger (https://pev.dev/t/im-excited-to-bring-you-surge-behavior-in-izzfloat-package/730)
 
 Version 0.9.0.1
 
