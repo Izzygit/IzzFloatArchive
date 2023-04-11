@@ -1,7 +1,7 @@
 # IzzFLOAT
 My personal changes to the VESC Float Package
 
-Version 0.9.1.1
+Version 0.9.1.1a
 
 -Replaces traditional pitch booster with roll based booster, Turn Boost
 
