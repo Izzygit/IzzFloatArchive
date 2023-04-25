@@ -3,7 +3,7 @@ Compiled Izzfloat Packages
 
 Vesion 1.0.0.2
 
--Update to Float Package v1.0. Updates to surge an turn boost.
+-Update to Float Package v1.0. Updates to surge and turn boost.
 
 Version 0.9.1.1
 
