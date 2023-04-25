@@ -1,6 +1,10 @@
 # IzzFLOAT
 My personal changes to the VESC Float Package
 
+Version 1.0.0.2
+
+- Modified turn boost math to apply more consistently in low speed braking situations.
+
 Version 1.0.0.1
 
 - Updated to v1.0 FLOAT package
@@ -10,7 +14,6 @@ Version 1.0.0.1
   - Start Differential = 3 degrees
   - Current Margin = 1.3
 - Changed surge minimum angle to initialize to Start Differential to smooth out transition from braking to surge.
-- Modified turn boost math to apply more consistantly in low speed braking situations.
 
 Version 0.9.1.1
 
