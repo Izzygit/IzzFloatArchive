@@ -1,6 +1,10 @@
 # IzzFloatArchive
 Compiled Izzfloat Packages
 
+Vesion 1.0.0.2
+
+-Update to Float Package v1.0. Updates to surge an turn boost.
+
 Version 0.9.1.1
 
 -Replaces traditional pitch booster with roll based booster, Turn Boost
