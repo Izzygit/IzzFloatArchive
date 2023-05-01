@@ -1,6 +1,10 @@
 # IzzFloatArchive
 Compiled Izzfloat Packages
 
+Version 1.0.0.3
+
+-Adds second value to sticky tilt and other sticky tilt upgrades
+
 Vesion 1.0.0.2
 
 -Update to Float Package v1.0. Updates to surge and turn boost.
