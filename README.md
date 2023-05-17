@@ -1,6 +1,10 @@
 # IzzFloatArchive
 Compiled Izzfloat Packages
 
+Version 1.0.0.4
+
+- Adds Angle P (kp) Scaling
+
 Version 1.0.0.3
 
 -Adds second value to sticky tilt and other sticky tilt upgrades
