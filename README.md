@@ -67,10 +67,8 @@ FYI, I have also rescaled to automatically add 15 to the Angle P value when Angl
 Rate P should be set to 0.2 to 0.5. Higher values feel too stiff to me and tend to erase the scaling effect. Combining different Rate P’s with different Max Scale Angle’s can yield interesting effects.
 
 Here are some settings you can try out:
-	    Lowest	Street	Trail	Highest
-Tight	0.3	10.5	20.7	31
-Middle	0.5	10.9	21.3	31.9
-Loose	0.8	11.4	22	32.9
+
+![image](https://github.com/Izzygit/IzzFloatArchive/assets/126716104/b7906c51-3a08-44b7-baf1-e2699d7fa823)
 
 TURN BOOST
 
