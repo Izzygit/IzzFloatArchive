@@ -1,4 +1,12 @@
+Please send all inquiries to izzyvesc@gmail.com
+
 Change Log:
+
+Version 1.0.1.0
+
+- Adds traction control and drop detection
+- Sticky tilt now works through momentary action of the throttle. As long as the throttle does not hit max, it will activate or switch between sticky tilt values as soon as the throttle returns to center.
+- Adds high current limit of 20 amps to sticky tilt. Above the high current limit sticky tilt prevents shift from the high value to the low value to avoid user error.
 
 Version 1.0.0.4
 - Adds Angle P Scaling to the PID loop.
@@ -32,6 +40,12 @@ Version 0.9.1.0
 
 Version 0.9.0.1
 -	Adds sticky tilt input with hardcoded value of 3.0
+
+TRACTION CONTROL
+
+Traction control works by monitoring the acceleration of the wheel and removing power when the acceleration excceds normal limits. Traction control is based on 15s hypoercore with 150lb rider which yielded an appropriate traction limit of 35 erpm per code cycle averaged over 10 code cycles. Higher powered configurations may be able to out accelerate this limit when surging at low erpm. If so, you can send you debug information to the email above and I can adjuat the limits as necessary.
+
+This works well for me on ATV and mountain bike trails, but it is not perfect. It is hard to consider and account for every possible scenario the board may experience. Use with caution.
 
 ANGLE P SCALING
 
