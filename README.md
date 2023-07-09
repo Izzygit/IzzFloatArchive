@@ -43,7 +43,7 @@ Version 0.9.0.1
 
 TRACTION CONTROL
 
-Traction control works by monitoring the acceleration of the wheel and removing power when the acceleration excceds normal limits. Traction control is based on 15s hypoercore with 150lb rider which yielded an appropriate traction limit of 35 erpm per code cycle averaged over 10 code cycles. Higher powered configurations may be able to out accelerate this limit when surging at low erpm. If so, you can send you debug information to the email above and I can adjuat the limits as necessary.
+Traction control works by monitoring the acceleration of the wheel and removing power when the acceleration excceds normal limits. Traction control is based on 15s hypercore with 150lb rider which yielded an appropriate traction limit of 35 erpm per code cycle averaged over 10 code cycles. Higher powered configurations may be able to out accelerate this limit when surging at low erpm. If so, you can send you debug information to the email above and I can adjuat the limits as necessary.
 
 This works well for me on ATV and mountain bike trails, but it is not perfect. It is hard to consider and account for every possible scenario the board may experience. Use with caution.
 
