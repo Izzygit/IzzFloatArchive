@@ -145,21 +145,18 @@ This feature allows you to use your remote to set two persistent nose up and nos
 
 Description of Behavior
 
-The default sticky nose up and nose down angle is currently hard coded to 3 degrees. It engages as the throttle is traveling back to the center position. If it passes through the sticky value, it will stay at that value.
+The default sticky nose up and nose down angle is currently hard coded to 3 degrees. It engages as the throttle reaches the center position after a throttle action. This allows you to flick the throttle in the direction you want to tilt. Pushing the throttle in the opposite direction of the sticky tilt value will disengage sticky tilt.
+There is a second sticky value that is higher than the first. This is hard-coded to 6.0 degrees. When sticky tilt is engaged at the first value you can flick the throttle in the direction of the sticky tilt value to move it to the second value and visa versa. Moving the throttle in the opposite direction will still end sticky tilt no matter which value you are at.
 
-For example, you nose up 10 degrees and release the throttle back to center. The nose will stick to 3 degrees up even as the throttle rests at the center position. If you push the throttle nose up again, the angle will not engage further until 3+ degrees.
+Sticky tilt will not switch values if the motor is pulling more than 20 battery amps and you are at the higher sticky tilt value. This helps to avoid nose dives and tail dives from user error.
 
-If you then push the throttle nose down, you only need to do so for a split second to reset the board angle back to zero from the nose up sticky value. The same is true if you are nose down. Push the throttle nose up to reset. It only needs to be for an instant so you can just flick the throttle.
+If the setpoint reaches max while pushing the throttle in the direction of sticky tilt value, it will not switch sticky tilt values. This means that if you are going downhill at sticky value 6.0, and you want to throttle to max (i.e. 10) for a quick drop, you will then return to 6.0 when you throttle down, and not switch to 3.0.
 
-With version 1.0.0.3 there is now a second sticky value that is higher than the first. This is hard-coded to 6.0 degrees. When sticky tilt is engaged at the first value you can flick the throttle in the direction of the sticky tilt value to move it to the second value and visa versa. Moving the throttle in the opposite direction will still end sticky tilt no matter which value you are at.
-
-If the setpoint reaches max while pushing the throttle in the direction of sticky tilt value, it will not switch sticky tilt values. This means that if you are going downhill at sticky value 6.0, and you want to throttle to max (i.e. 10) for a quick drop, you will then return to 6.0 when you throttle down and not switch to 3.0.
-
-With version 1.0.0.3 sticky tilt is now persistent when you disengage and re-engage the board. I added this feature because it can be difficult to start back up after falling on a steep grade. Input tilt will not be persistent for any values other than the sticky tilt values. Input tilt will not be persistent if your remote turns off or loses communication.
+Sticky tilt is persistent when you disengage and re-engage the board. I added this feature because it can be difficult to start back up after falling on a steep grade. Input tilt will not be persistent for any values other than the sticky tilt values. Input tilt will not be persistent if your remote turns off or loses communication.
 
 How to enable
 
-With version 1.0.0.3 sticky tilt can be enabled/disabled. To avoid adding more UI, sticky tilt is enabled via the maximum input tilt angle. To do this you just need to include a decimal other than 0 in your maximum tilt value. For example, use 10.1 instead of 10.0.
+Sticky tilt can be enabled/disabled. To avoid adding more UI, sticky tilt is enabled via the maximum input tilt angle. To do this you just need to include a decimal other than 0 in your maximum tilt value. For example, use 10.1 instead of 10.0.
 
 Why
 
@@ -167,4 +164,4 @@ This is for trail riding specifically. My typical trail rides are not as dynamic
 
 ATR has been great for providing the angle I want but I find that automatic setpoint changes have undesirable side effects. Primarily, it removes the sense of board level that my body determines through the position of my knees and hips. This sense allows me to predict how the board will act, but if the setpoint is constantly changing my sense is blurred.
 
-Sticky tilt allows me to predetermine the setpoint I need for the terrain. My body only needs a second to register this new setpoint and have a full sense of where the board level is. Now with 5 distinct setpoints (-max, -6, -3, 0, 3, 6, max), I can comfortably handle any terrain without automatic setpoint changes
+Sticky tilt allows me to predetermine the setpoint I need for the terrain. My body only needs a second to register this new setpoint and have a full sense of where the board level is. Now with 5 distinct setpoints (-max, -6, -3, 0, 3, 6, max), I can comfortably handle any terrain without automatic setpoint changes.
