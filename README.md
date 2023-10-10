@@ -1,3 +1,5 @@
+# THIS PACKAGE IS NO LONGER UPDATED. PLEASE CHECK OUT MY NEW VESC PACKAGE AVALIABLE ON THE VESC STORE AND [HERE](https://github.com/Izzygit/TrickandTrailReleases)
+
 Please send all inquiries to izzyvesc@gmail.com
 
 Change Log:
